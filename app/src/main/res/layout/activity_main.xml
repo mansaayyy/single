@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context="com.example.manasi.textinsert3.MainActivity">
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="80dp"
+        android:inputType="textPersonName"
+        android:hint="Enter some text" />
+
+
+    <EditText
+        android:id="@+id/editNew"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="0dp"
+        android:inputType="textPersonName"
+        android:hint="Enter new text to update" />
+
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="insert"
+        android:text="Insert"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Display"
+        android:text="Display"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="140dp"/>
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Delete"
+        android:text="Delete"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="140dp"/>
+
+    <Button
+        android:id="@+id/singleDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="DisplaySingle"
+        android:text="Display Single"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="140dp"/>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Update"
+        android:text="Update"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="140dp"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="220dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp" />
+
+</LinearLayout>
